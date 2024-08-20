@@ -1,54 +1,53 @@
-//Variaveis
-// Tipo Number
+// variavel
+// tipo Number(int)
+const meuNumero = 78
+const numeroUm = 19
+const numeroDois = 98
 
-const meuNumero = 6;
-const numeroUm = 1;
-const numeroDois = 2;
-
-console.log(numeroDois)
-
-const soma = 3 + 6
+const soma = numeroDois + numeroUm
 console.log(soma)
 
-const subtracao = numeroUm - meuNumero;
+const subtracao = numeroUm - numeroDois
 console.log(subtracao)
 
-const multiplicaçao = numeroDois * 10;
-console.log(multiplicacao);
+const Multiplica = numeroDois * meuNumero
+console.log(Multiplica)
 
-const divisao = meuNumero / numeroDois;
+const divisao = meuNumero / numeroDois
 console.log(divisao)
 
-//Float ( Número decimal )
-
-const numeroTres = 3.3;
-const numeroQuatro = .5 //mesma coisa que 0.5
+// float (numero decimal)
+const numeroTres = 3.37
+const numeroQuatro = .9
 
 const operacaoM = numeroTres * numeroQuatro
 console.log(operacaoM)
 
-//NaN not a Number
-
-const operacaoN = "a" * meuNumero
+// NaN NOT number(Nao numero)
+const operacaoN = "a" * numeroTres
 console.log(operacaoN)
 
+//concatenaçao
 const novaOperacao = "a" + meuNumero
 console.log(novaOperacao)
 
-//string (texto)
+// string(Texto)
+const meuNome = "Piracanjuba"
+const frase = "Meu nome é "
+const issoNaoEUmNumero = "100000"
 
-const meuNome = "Teotonio";
-const frase = 'Meu nome é: ';
-const issoNaoEUmNumero = '50';
+const minhaFrase = frase + meuNome
+console.log(minhaFrase)
 
-const minha Frase = frase + meuNome;
-console.log(minhaFrase);
+const operacao0 = meuNumero + issoNaoEUmNumero
+console.log(operacao0)
 
-const compracao = 6 === meuNumero
-console.log(comparacao)
+//Booleano (Verdadeiro/Falso)
+ const comparacao = 78 === meuNumero
+ console.log(comparacao)
 
-const comparacaoII = "6" ===meuNumero
-console.log(comparacaoII)
+ const comparacaoII = "78" === meuNumero
+ console.log(comparacaoII)
 
-const compracaoIII = "6" == meuNumero;
-console.log(comparacaoIII);
+ const comparacaoIII = "78" == meuNumero
+ console.log(comparacaoIII
