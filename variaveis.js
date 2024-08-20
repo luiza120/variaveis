@@ -50,4 +50,4 @@ console.log(operacao0)
  console.log(comparacaoII)
 
  const comparacaoIII = "78" == meuNumero
- console.log(comparacaoIII
+ console.log(comparacaoIII)
