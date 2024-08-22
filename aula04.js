@@ -47,3 +47,31 @@ function multiplicacao(numero2 = 2, numero5 = 5){
     return numero2 * numero5
 }
 imprimeTexto(multiplicacao(somaDeNumeros(2,5), somaDeNumeros(2,5)));
+
+// expressão de função
+
+const constanteSoma = function(nume1, nume2){return nume1 + nume2}
+
+console.log(constanteSoma(3, 6))
+
+// Funções e var são "listadas" no topo do arquivo 
+
+// Arrow function
+
+const apresentaArrow = nome => `meu nome é ${nome}`;
+const somaEmFlecha = (nu1, nu2) => nu1  + nu2;
+
+console.log(apresentaArrow("lu"))
+console.log(somaEmFlecha(2,4))
+
+const SomaNumerosPequenos = (num1, num2) => {
+    if(num1 > 10 || num2 > 10){
+        return "Essa função é apenas para números pequenos"
+    } else {
+        return num1  + num2;
+    }
+}
+
+console.log(SomaNumerosPequenos(2,1))
+
+
